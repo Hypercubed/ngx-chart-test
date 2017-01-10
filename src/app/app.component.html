@@ -1,3 +1,16 @@
 <h1>
   {{title}}
+
+  <ngx-charts-pie-chart
+    [results]="single"
+    [scheme]="colorScheme"
+    [doughnut]="true">
+  </ngx-charts-pie-chart>
+
+   <ngx-charts-heat-map
+      [scheme]="colorScheme"
+      [results]="multi"
+      [legend]="showLegend">
+    </ngx-charts-heat-map>
+
 </h1>
